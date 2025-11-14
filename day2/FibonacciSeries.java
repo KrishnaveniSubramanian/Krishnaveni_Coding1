@@ -42,11 +42,11 @@ public class FibonacciSeries {
 			a = b;
 			b = c;
 			
-			if(c%2 >= 0) {
+			if(c%2 != 0) {
 				System.out.println(c + " is the odd number");
 			}
 			
-			else if (c%2 <= 0){
+			else if (c%2 == 0){
 				System.out.println(c + " is the even number");
 				
 			}
@@ -54,6 +54,7 @@ public class FibonacciSeries {
 	}
 
 }
+
 
 
 
